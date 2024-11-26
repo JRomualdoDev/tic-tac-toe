@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+
+    <title>Tic Tac Toe</title>
+</head>
+
+<body class="h-screen bg-gradient-to-t from-indigo-500 to-pink-500 flex justify-center items-center">
+    <div class="text-center">
+        <h1 class="text-white text-4xl mb-6">Tic Tac Toe</h1>
+
+        <div id="game" class="grid grid-cols-3 gap-0 max-w-xs mx-auto w-[300px] h-[300px]">
+            <div
+                class="cell border border-black flex items-center justify-center text-4xl cursor-pointer w-[100px] h-[100px] overflow-hidden">
+            </div>
+            <div
+                class="cell border border-black flex items-center justify-center text-4xl cursor-pointer w-[100px] h-[100px] overflow-hidden">
+            </div>
+            <div
+                class="cell border border-black flex items-center justify-center text-4xl cursor-pointer w-[100px] h-[100px] overflow-hidden">
+            </div>
+            <div
+                class="cell border border-black flex items-center justify-center text-4xl cursor-pointer w-[100px] h-[100px] overflow-hidden">
+            </div>
+            <div
+                class="cell border border-black flex items-center justify-center text-4xl cursor-pointer w-[100px] h-[100px] overflow-hidden">
+            </div>
+            <div
+                class="cell border border-black flex items-center justify-center text-4xl cursor-pointer w-[100px] h-[100px] overflow-hidden">
+            </div>
+            <div
+                class="cell border border-black flex items-center justify-center text-4xl cursor-pointer w-[100px] h-[100px] overflow-hidden">
+            </div>
+            <div
+                class="cell border border-black flex items-center justify-center text-4xl cursor-pointer w-[100px] h-[100px] overflow-hidden">
+            </div>
+            <div
+                class="cell border border-black flex items-center justify-center text-4xl cursor-pointer w-[100px] h-[100px] overflow-hidden">
+            </div>
+        </div>
+        <p id="status" class="text-white text-xl mt-4"></p>
+        <button onClick="resetGame()" class="mt-4 px-6 py-2 bg-white text-indigo-600 rounded-lg">Reset Game</button>
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
